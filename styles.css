@@ -34,7 +34,7 @@
 
 .square  {
     background: black;
-    height: 3.14px;
-    width: 8.6px;
+    height: 5px;
+    width: 5px;
     transition: all 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
