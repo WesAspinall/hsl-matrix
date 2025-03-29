@@ -1,0 +1,40 @@
+ body { 
+   background: black 
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(100, auto); 
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.cross-container {
+ display: flex;
+ height: 15px;
+ width: 15px;
+}
+
+.x-container { 
+  display: flex;
+  align-items: center;
+  height: 100%; 
+}
+
+.y-container { 
+  height: 15px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.square  {
+    background: black;
+    height: 3.14px;
+    width: 8.6px;
+    transition: all 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
