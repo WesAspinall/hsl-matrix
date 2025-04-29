@@ -3,7 +3,7 @@ const crossesPerRow = 100;
 const crossesPerCol = 10;
 const squares = [];
 
-const palette = ['#003f5c', '#2f4b7c', '#665191', '#a05195', '#d45087']; // replace with your favorite
+const palette = ['#003f5c', '#2f4b7c', '#665191', '#a05195', '#d45087']; 
 
 function getRandomColor() {
   return palette[Math.floor(Math.random() * palette.length)];
